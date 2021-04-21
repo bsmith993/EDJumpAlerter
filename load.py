@@ -94,7 +94,7 @@ def journal_entry(cmdr, is_beta, system, station, entry, state):
       starclass_text.set("Class " + sc + " Star")
 
     if entry['StarClass'] in ["F", "O", "A", "B", "G", "K", "M"]:
-      scoopable_text.set("Scoopable")
+      scoopable_text.set("Yes")
     else:
       scoopable_text.set("No")
 
@@ -118,7 +118,7 @@ def journal_entry(cmdr, is_beta, system, station, entry, state):
       fd_text.set("No")
 
   if entry['event'] == "Scan" and entry['DistanceFromArrivalLS'] == 0 and not entry['WasDiscovered']:
-    fd_text.set("FIRST")
+    fd_text.set("Yes")
   elif entry['event'] == "Scan" and entry['DistanceFromArrivalLS'] == 0 and entry['WasDiscovered']:
     fd_text.set("No")
     
