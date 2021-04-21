@@ -22,8 +22,14 @@ NOTE: The First Discovered tag only indicates if no one has sold exploration dat
 # Display Details
 
 System:      System name of jump in progress
+
 Star:        Star classification
+
 Scoopable:   If star class is scoopable
+
 Visited:     If your CMDR has visited this system before, according to EDSM.
+
 EDSM:        If the system is already in EDSM.
+
 First Disc:  If your CMDR is the first to scan the main star.
+
